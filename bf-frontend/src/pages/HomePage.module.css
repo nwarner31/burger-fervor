@@ -1,0 +1,27 @@
+.body {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.body::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.section {
+    float: left;
+    box-sizing: border-box;
+}
+
+.s-left {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.s-right {
+    width: 25%
+}

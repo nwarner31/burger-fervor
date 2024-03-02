@@ -1,0 +1,10 @@
+.body {
+    border: 2px solid var(--secondary);
+    border-radius: 10px;
+    padding: .5rem;
+    cursor: pointer;
+}
+.header {
+    font-weight: 700;
+    color: var(--primary);
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id":  1,
+    "name": "Classic American",
+    "description":  "The classic American Hamburger with ketchup, mustard, and pickles.",
+    "smallPrice": 3.25,
+    "mediumPrice": 4.00,
+    "largePrice": 4.50,
+    "massivePrice": 5.50,
+    "imgSource": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_1920,c_limit/Smashburger-recipe-120219.jpg"
+  },
+  {
+    "id":  2,
+    "name": "Cowboy",
+    "description":  "A tangy burger with bbq sauce, bacon, and sauted onions.",
+    "smallPrice": 4.00,
+    "mediumPrice": 4.75,
+    "largePrice": 5.25,
+    "massivePrice": 6.50,
+    "imgSource": "https://realfoodbydad.com/wp-content/uploads/2020/05/Southern-BBQ-Burger-Real-Food-by-Dad-683x1024-1-480x360.jpg"
+  },
+  {
+    "id":  3,
+    "name": "Hawaiian",
+    "description":  "A sweet and savory burger with pineapple, ham, and a Hawaiian sauce.",
+    "smallPrice": 3.50,
+    "mediumPrice": 4.25,
+    "largePrice": 4.75,
+    "massivePrice": 5.75,
+    "imgSource": "https://bachans.com/cdn/shop/articles/hawaiian_burger.jpg"
+  },
+  {
+    "id":  4,
+    "name": "Guac Me",
+    "description":  "A tangy burger with guacamole, bacon, and tomato.",
+    "smallPrice": 3.75,
+    "mediumPrice": 4.50,
+    "largePrice": 5.00,
+    "massivePrice": 6.00,
+    "imgSource": "https://d31qjkbvvkyanm.cloudfront.net/images/recipe-images/carne-asada-guacamole-burgers-detail-b270aeb5.jpg"
+  }
+]

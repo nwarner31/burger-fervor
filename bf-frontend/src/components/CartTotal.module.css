@@ -1,0 +1,15 @@
+.price-row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.price-amount {
+    float: right;
+    font-weight: bold;
+}
+
+.price-label {
+    float: left;
+    color: gray;
+}

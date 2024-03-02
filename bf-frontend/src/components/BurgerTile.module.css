@@ -1,0 +1,69 @@
+.body {
+    padding: .2rem .3rem;
+    width: 375px;
+    border: 2px solid var(--secondary);
+    border-radius: 5px;
+}
+
+.body::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.section {
+    margin: auto;
+    float: left;
+}
+
+.s-left {
+    width: 240px;
+}
+
+.img {
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.s-right {
+    position: relative;
+}
+
+.price {
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+h3 {
+    margin-bottom: 8px;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: .8rem;
+}
+
+.add-button {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    border-radius: 50%;
+    font-weight: 900;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.add-button:disabled {
+    background-color: var(--primary);
+    color: var(--secondary);
+}

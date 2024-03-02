@@ -1,0 +1,35 @@
+.body {
+    display: flex;
+    width: 200px;
+    column-gap: .75rem;
+    align-content: center;
+    margin-bottom: .75rem;
+}
+
+.header {
+    color: var(--primary);
+    font-weight: 800;
+}
+
+.image {
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.details {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.price-line {
+    display: flex;
+    font-weight: bold;
+}
+
+.total {
+    text-align: right;
+    flex-grow: 1;
+
+}

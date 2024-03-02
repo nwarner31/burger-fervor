@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.radio-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.radio {
+    margin-top: .5rem;
+    accent-color: var(--primary);
+}
+
+.selected {
+    background-color: lightgray;
+}
+
+.order-button {
+    width: 100%;
+    padding: .5rem 0;
+    border-radius: 10px;
+    background-color: var(--secondary);
+    color: white;
+    cursor: pointer;
+}
+.order-button:hover {
+    background-color: white;
+    color: var(--secondary);
+}
+.order-button:disabled {
+    background-color: slategray;
+    color: white;
+    cursor: default;
+}

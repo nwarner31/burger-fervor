@@ -1,0 +1,40 @@
+.body {
+    width: 600px;
+    margin: 1rem auto;
+    border: 3px solid var(--secondary);
+    padding: .75rem;
+    border-radius: 20px;
+}
+
+.info-container {
+    display: flex;
+    padding: .25rem .75rem;
+    margin-bottom: .5rem;
+}
+.info {
+    width: 50%;
+}
+
+.border-div {
+    width: 100%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.border-div::after {
+    width: 60%;
+    margin-left: 20%;
+    border-bottom: 3px solid var(--secondary);
+    content: '';
+    display: block;
+}
+
+.item-container {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 50%;
+}

@@ -1,0 +1,15 @@
+.body {
+    border: 2px solid var(--secondary);
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.selected {
+    background-color: lightgray;
+}

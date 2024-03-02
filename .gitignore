@@ -1,0 +1,5 @@
+bf-frontend/node_modules
+bf-backend/node_modules
+bf-backend/.idea
+bf-frontend/.idea
+.idea
